@@ -11,15 +11,15 @@
     <main>
       <p style="text-align: center; font-size: 18px;">En esta página encontrarás toda la información sobre el mejor padel del mundo: <span style="font-weight: bold; font-style: oblique;">World Padel Tour</span></p>
       <div style="font-size: large; margin-top: 50px;">
-        <nav>¿No sabes donde reservar las entradas? -- 
+        <nav style="margin-left: 12px; font-style: oblique; text-transform: uppercase; text-decoration: overline; position: relative;">¿No sabes donde reservar las entradas? -- 
           <a href="https://www.worldpadeltour.com/" target="_blank" style="text-decoration: none;">Visita nuestra Página Web!</a>
         </nav>
       </div>   
       
       <div style="padding: 12px;">
         <h2 style="color: darkred;">¿Que es lo que buscas?</h2>
-        <ul type="square" style="font-size: 18px;">
-          <div style="margin-bottom: 20px;">
+        <ul style="font-size: 18px; list-style-type: square; list-style-position: inside;">
+          <div>
             <a href="resultados.html" target="_blank" style="text-decoration: none; color: blueviolet;"> 
               <li>
                 Resultados
@@ -43,24 +43,28 @@
           </div>
         </ul>
       </div>
-      <section style="padding: 12px; font-family: Roboto; display: flex;">
-        <h2 style="color: darkred">Sección de noticias padelísticas</h2>
-        <article style="margin-left: 20px;">
+      <section style="padding: 12px; font-family: Roboto; display: flex; position: relative;">
+        <h2 style="color: darkred;">Sección de noticias padelísticas</h2>
+        <article style="margin-left: 50px; position: relative; margin-right: 40px; left: 15px;">
             <h3>Lamperti y Yanguas: Ruptura inminente</h3>
             <p style="font-size: 16px;">Ya dice el dicho: Cuando el río suena, agua lleva. Y esto es lo que ha pasado con esta bonita pareja...</p>
         </article>
-        <article style="margin-left: 20px;">
+        <article style="margin-left: 20px; position: relative; left: 15%;">
             <h3>¿Nueva pareja Lima-Maxi?</h3>
-            <p style="font-size: 16px;">Parece que el amor en el pádel ha surgido entre el brasileño y el argentino</p>
+            <p style="font-size: 16px;">Parece que el amor en el pádel ha surgido entre el brasileño y el argentino...</p>
+        </article>
+        <article style="margin-left: 20px; position: relative; top: 150px; right: 50%;">
+          <h3>La pareja interminable</h3>
+          <p style="font-size: 16px;">Si hay una pareja en WPT que tiene pinta que nunca se va a separar, esa es la formada por el "Gato" Tello y el "Ratón" Chingoto...</p>
         </article>
       </section>
-      <aside style="padding: 12px;">
+      <aside style="padding-left: 12px; position: relative; bottom: 20px;">
         <img id="fotoWPT" src="images/wpt.png" style="width: 12%; height: 12%;"/>
       </aside>
       <div style="padding: 12px;">
         <h2 id="enlaceTorneo" style="color: darkred;">Proximos Torneos en WPT</h2>
         <ol start="8" type="1">
-          <div style="margin-bottom: 20px; font-size: 18px;">
+          <div style="font-size: 18px;">
             <li>
               Torneo en Gijón, Asturias <i>(5-7 Marzo)</i>
             </li><br>
@@ -74,9 +78,9 @@
         </ol>
       </div>  
       <div id="AlistarteTorneo" style="padding: 12px;">
-        <h3>Rellena el formulario</h3>
+        <h3 style="font-size: 24px; color: purple;">Rellena el formulario</h3>
         <form action="procesarInformacion.jsp" method="post">
-          <fieldset style="padding: 12px;"><legend>Datos personales</legend>
+          <fieldset style="padding: 12px; font-family: Roboto;"><legend style="font-weight: bold;">Datos personales</legend>
             <label for="Nombre">Introduce tu nombre: </label>
             <input type="text" name="Nombre" id="Nombre" placeholder="Julio Cesar" required />
             <br><br>
@@ -97,7 +101,7 @@
         </form>
       </div>  
     </main>
-    <footer>
+    <footer style="margin-top: 50px;">
       <p>Todos los derechos reservador! copyright 2021 &copy;</p>
     </footer>
   </body>
